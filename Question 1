@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+    printf("Syed Bilal Akhter\n 19\n BSCS\n 26K-0649\n Section D\n FAST");
+    return 0;
+}
