@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    printf("before swap a = %d and b = %d\n", a, b);
+    a = a+b;
+    b = a-b;
+    a = a-b;
+    printf("after swap a = %d and b = %d", a, b);
+}
