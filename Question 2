@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    char Name[50];
+    int Age;
+    char Dep[50];
+    char ID[50];
+    char UniName[50];
+
+    scanf("%s",Name);
+    scanf("%d",&Age);
+    scanf("%s",Dep);
+    scanf("%s",ID);
+    scanf("%s",UniName);
+
+    printf("\n%s\n",Name);
+    printf("%d\n",Age);
+    printf("%s\n",Dep);
+    printf("%s\n",ID);
+    printf("%s\n",UniName);
+    return 0;
+}
