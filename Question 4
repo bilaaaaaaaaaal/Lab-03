@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int base;
+    int height;
+    float area;
+
+    printf("enter base length\n");
+    scanf("%d",&base);
+    printf("enter height\n");
+    scanf("%d",&height);
+    area = 0.5*base*height;
+    printf("area is: %.1f",area);
+}
